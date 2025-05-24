@@ -1,7 +1,7 @@
 package com.gestion.usuarios_acceso.repository;
 
-import com.Gestion.Usuarios.acceso.model.Usuario;
-import com.Gestion.Usuarios.acceso.model.Rol;
+import com.gestion.usuarios_acceso.model.Usuario;
+import com.gestion.usuarios_acceso.model.Rol;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

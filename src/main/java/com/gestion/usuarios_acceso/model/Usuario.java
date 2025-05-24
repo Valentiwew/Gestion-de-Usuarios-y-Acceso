@@ -1,0 +1,23 @@
+package com.gestion.usuarios_acceso.model;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Entity
+@Table(name = "usuarios")
+public class Usuario {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String nombre;
+    private String email;
+    private String contraseña;
+
+    @Enumerated(EnumType.STRING)
+    private Rol rol;
+}

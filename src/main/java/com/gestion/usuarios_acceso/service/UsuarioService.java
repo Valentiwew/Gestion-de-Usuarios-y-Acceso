@@ -1,7 +1,5 @@
-package com.gestion.usuarios_acceso;
+package com.gestion.usuarios_acceso.service;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.gestion.usuarios_acceso.model.Usuario;
 import com.gestion.usuarios_acceso.model.Rol;
 import com.gestion.usuarios_acceso.repository.UsuarioRepository;
